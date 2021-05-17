@@ -1,5 +1,5 @@
-# from masonite.testing import TestCase
-from tests.BaseTestCase import BaseTestCase as TestCase
+from masonite.testing import TestCase
+# from tests.BaseTestCase import BaseTestCase as TestCase
 
 class TestUnit(TestCase):
     

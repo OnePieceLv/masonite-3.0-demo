@@ -1,12 +1,12 @@
 """Example Database Testcase."""
 
-# from masonite.testing import TestCase
+from masonite.testing import TestCase
 
 from app.User import User
 
 from config.factories import factory
 
-from tests.BaseTestCase import BaseTestCase as TestCase
+# from tests.BaseTestCase import BaseTestCase as TestCase
 
 
 class TestUser(TestCase):
